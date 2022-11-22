@@ -1,0 +1,162 @@
+A:link { text-decoration:underline;COLOR:#0088C2;font-size:12px;font-family:Arial }
+
+
+BODY
+{
+  font-family:Arial;color:#000000;
+  position:absolute;z-index:0;top:0px;left:0px;
+  background-color:#d9e3e9;
+  width:600px;
+  height:450px;
+  padding:0px;
+  margin:0px;
+  overflow:hidden;
+}
+
+BODY,TD,SELECT,INPUT,P{
+  font-size:12px;
+  font-family:Arial;
+  color:#000000;
+}
+
+.CONTENT_TITLE_L{
+  padding-bottom:10px;
+  vertical-align:top;
+  text-align:left;
+  font-size:18px;
+}
+
+.CONTENT_TITLE_R
+{
+  padding-bottom:10px;
+  vertical-align:center;
+  text-align:right;
+  font-size:12px;
+}
+
+.content_layer{
+  padding:10px;
+  width:600px;
+  height:400px;
+}
+
+.content_layer_f{
+  awidth:auto;
+}
+
+.CONTENT_TABLE
+{
+  padding:10px;
+  vertical-align:top;
+  text-align:left;
+}
+
+.CONTENT_DATA
+{
+  vertical-align:top;
+  text-align:left;
+  background-color:#ffffff;
+  border:solid 1px #8499a2;
+}
+
+.ITEMS
+{
+  vertical-align:top;
+  padding-top:20px;
+  padding-bottom:10px;
+  text-align:center;
+  color:#8e8e8e; 
+  font-size:12px;
+}
+
+.ITEMS_SEL{
+  padding-top:20px;
+  padding-bottom:10px;
+  vertical-align:top;
+  text-align:center;
+  color:#000000;
+  font-weight:bold;  
+  font-size:12px;
+}
+
+.DATA_TITLE{
+  vertical-align:top;
+  text-align:left;
+  font-size:14px;
+  color:#7e7e7e; 
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:10px;
+  height:48px;
+}
+
+.DATA_DETAIL P{
+  vertical-align:top;
+  text-align:left;
+  padding-left:10px;
+  font-size:10px;
+}
+
+.DATA_TAIL{
+  vertical-align:bottom;
+  text-align:left;
+  padding-left:10px;
+  padding-bottom:10px;
+  font-size:10px;
+}
+
+.DATA_SHOWTOP{
+  vertical-align:bottom;
+  text-align:left;
+  padding-left:8px;
+  padding-bottom:10px;
+  font-size:10px;
+}
+
+
+.DATA_BT{
+  padding-top:10px;
+  padding-bottom:10px;
+  vertical-align:top;
+  text-align:right;
+  
+}
+
+.BT{
+ height:22px;
+ width:50px;
+ background-image:url("../image/BT_Normal.jpg");
+ border:1px solid #53636a;
+ padding-bottom:3px; /* for firefox */
+}
+
+.BT_Hover
+{
+ height:22px;
+ width:50px;
+ background-image:url("../image/BT_Hover.jpg");
+ border:1px solid #1fa0d5;
+ padding-bottom:3px; /* for firefox */
+}
+
+.BT_Press{
+ height:22px;
+ width:50px;
+ background-image:url("../image/BT_Press.jpg");
+ border:1px solid #53636a;
+ padding-bottom:3px; /* for firefox */
+}
+
+.BT_DISABLE
+{
+ height:22px;
+ width:50px;
+background-image:url("../image/BT_Disabled.jpg");
+ border:1px solid #8e8e8e;
+ color:#8e8e8e;
+ padding-bottom:3px; /* for firefox */
+}
+
+
+
+

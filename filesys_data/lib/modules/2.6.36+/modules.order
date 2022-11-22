@@ -1,0 +1,10 @@
+kernel/drivers/scsi/scsi_wait_scan.ko
+kernel/drivers/net/wireless/rlt_wifi_ap/rlt_wifi.ko
+kernel/drivers/net/pptp.ko
+kernel/drivers/net/dnshook/dnshook.ko
+kernel/net/netfilter/nf_conntrack_sip.ko
+kernel/net/ipv4/netfilter/nf_nat_sip.ko
+kernel/net/ipv4/netfilter/ipt_webstr.ko
+kernel/net/ipv4/gre.ko
+kernel/net/ipv4/ip_gre.ko
+kernel/net/ipv6/netfilter/ip6t_webstr.ko

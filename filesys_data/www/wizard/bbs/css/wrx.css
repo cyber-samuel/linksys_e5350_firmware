@@ -1,0 +1,606 @@
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background: #FFFFFF; /* Old browsers */
+	}
+body span {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
+}
+.ssid {
+	white-space:pre-wrap;
+}
+div.ssid {
+	word-wrap: break-word;
+}
+#ssidField {max-width: 130px;}
+.networklistrow {
+	min-height: 68px;
+	min-height:inherit\9; /* for IE only */
+	padding:10px 10px 10px 10px;
+	border-top:none;
+	cursor:pointer;
+	position:relative;
+	border-top: #8e9aa5 1px solid;
+	}
+.networklistrow.single {
+	padding:22px 10px 22px 10px !important;
+	}
+.networklistrow.first {
+	border-top:none;
+	}
+.networklistrow.n2 {
+	min-height: 38px;
+	min-height:inherit\9; /* for IE only */
+}
+.networklistrow:hover {
+	background-color:#d6ecfb;
+	color:#000;
+	}
+.networklistrow .name {
+	font-size: 16px;
+	margin-bottom:4px;
+	width: 220px;
+	word-wrap: break-word;
+}
+.networklistrow tr:nth-child(n+2) td .name {
+  margin-bottom:0px;
+}
+.networklistrow .name.same {
+	margin-top: 15px;
+}
+.networklistrow .name.hide {
+	visibility:hidden;
+}
+.networklistrow .name.large {
+	font-size:20px;
+}
+.networklistrow .bars {
+	height:18px;
+	width:18px;
+	margin:0 0 5px 6px;
+	padding:0 0 0 24px;
+}
+.networklistrow .networklisttable {
+	width:100%;
+	background: transparent;
+	margin:0;
+	border:0;
+	font-size:16px;
+}
+.networklistrow .networklisttable tr td{
+	background: transparent;
+	margin:0;
+	padding:0;
+}
+.networklistrow tr:nth-child(n+2) td {
+	padding-top: 10px;
+}
+.networklistrow .networklisttable tbody tr:nth-child(even){background: transparent;}
+#networklist table tr td {
+  vertical-align: middle;
+}
+.netmeta {
+	text-align: right;
+	padding-left: 5px;
+	font-size: 12px;
+	color: #bebebe;
+	white-space: nowrap;
+}
+.skinny {
+    width: 1%;
+}
+.four.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_4-4.png) no-repeat 0px 1px;
+}
+.three.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_3-4.png) no-repeat 0px 1px;
+}
+.two.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_2-4.png) no-repeat 0px 1px;
+}
+.one.bars {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 1px;
+}
+.networklistrow:hover .four.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_4-4.png) no-repeat 0px 1px;
+}
+.networklistrow:hover .three.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_3-4.png) no-repeat 0px 1px;
+}
+.networklistrow:hover .two.bars {
+	background:url(../images/icon-Wi-Fi_desktop-sm_2-4.png) no-repeat 0px 1px;
+}
+.networklistrow:hover .one.bars {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 1px;
+}
+.lock {
+	position:relative;
+	width: 22px;
+	height: 18px;
+}
+.lock.locked {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 4px;
+}
+.lock.locked.group {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 4px;
+	margin-top: 15px;
+}
+.networklistrow:hover .lock.locked {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 4px;
+}
+.networklistrow:hover .lock.locked.group {
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 4px;
+	margin-top: 15px;
+}
+.lock.locked.hide {
+	visibility:hidden;
+}
+.networklistrow.usehidden {
+	min-height:38px;
+	min-height:inherit\9; /* for IE only */
+	border-top:1px solid #555555;
+}
+.networklistrow.usehidden.first {
+	border-bottom:1px solid;
+	border-top:none;
+}
+.bars {
+	height: 18px;
+	width:20px;
+}
+#loading-img {
+	position:relative;
+	width: 48px;
+	height: 48px;
+	margin:36px auto 0 ;
+	background:url(../images/loading.gif) no-repeat center center;
+	background-size:48px 48px;
+}
+#header {
+	background: #094269; /* Old browsers */
+	background: -moz-linear-gradient(top,  #094269 0%, #094269 50%, #012d4a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#094269), color-stop(50%,#094269), color-stop(100%,#012d4a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #094269 0%,#094269 50%,#012d4a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #094269 0%,#094269 50%,#012d4a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #094269 0%,#094269 50%,#012d4a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #094269 0%,#094269 50%,#012d4a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#094269', endColorstr='#012d4a',GradientType=0 ); /* IE6-9 */
+	max-width:;
+	margin:auto;
+	margin-bottom: 0px;
+}
+#header h1 {
+	font-size:14px;
+	color: #ffffff;
+	float:right;
+	padding: 30px 0px 24px 16px;
+	margin-bottom:0;
+}
+#header h1#productNameFWGUI {
+	padding: 23px 0px 0px 16px;
+	text-align: right;
+}
+#modelNameDisplay {
+	color: #bbb;
+	font-size:10px;
+	font-weight: normal;
+}
+#firmwareVersion {
+	color: #bbb;
+	font-size:10px;
+	font-weight: normal;
+}
+#header a {
+	margin-bottom: 0;
+}
+.main {
+	margin:auto;
+	max-width:708px;
+	padding:10px 0 0 0;
+	background-color:#FFFFFF;
+	/*margin-bottom:16px;*/
+}
+#mainBackground {
+	width:100%;
+	aheight:100%;
+	abackground: #005a9a; /* Old browsers */
+	abackground: -moz-linear-gradient(top,  #005a9a 0%, #094269 50%, #001e31 100%); /* FF3.6+ */
+	abackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005a9a), color-stop(50%,#094269), color-stop(100%,#001e31)); /* Chrome,Safari4+ */
+	abackground: -webkit-linear-gradient(top,  #005a9a 0%,#094269 50%,#001e31 100%); /* Chrome10+,Safari5.1+ */
+	abackground: -o-linear-gradient(top,  #005a9a 0%,#094269 50%,#001e31 100%); /* Opera 11.10+ */
+	abackground: -ms-linear-gradient(top,  #005a9a 0%,#094269 50%,#001e31 100%); /* IE10+ */
+	abackground: linear-gradient(to bottom,  #005a9a 0%,#094269 50%,#001e31 100%); /* W3C */
+	afilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005a9a', endColorstr='#001e31',GradientType=0 ); /* IE6-9 */
+	position:fixed;
+	margin: 0 75 0 0;
+	z-index:-1;
+}
+#networklist {
+	margin:auto;
+	border:1px solid;
+	margin-bottom:25px;
+	font-size:1.2em;
+}
+.actions {
+	background:url() repeat-x #fff;
+	max-width:708px;
+	/*margin:auto;*/
+	margin-bottom:0px;
+	margin-top:0px;
+	/*margin-bottom:24px;*/
+	}
+.actions p {
+	margin: 0 0 0.5em 0;
+}
+.actions p.normal {
+	margin: 0;
+}
+.actions select {
+	margin: 0 0 10px;
+}
+.actions a.normal{
+	margin: 0;
+}
+.actions a{
+	margin: 11px 100px 0 0;
+}
+.actions a.link {
+	margin: 8px 10px 0 0;
+}
+.actions a.button{
+	 margin: 0px 0px 10px 20px;
+}
+#copyright{
+	color: rgb(85, 85, 85);
+	font-size:10px;
+	position: fixed;
+    bottom: 0.7em;
+    left: 0;
+    width: 100%;
+}
+.mtop24 { /* For the copyright on the setup pages */
+	margin-top:24px;
+}
+.fix-bottom {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+}
+#logo {
+	width:180px;
+	height:70px;
+	margin:0;
+	padding:0;
+	background:url(../images/logo-Linksys_desktop.png) no-repeat;
+	background-size:180px 70px;
+}
+#productPhoto {
+	width:401px;
+	height:397px;
+	margin:0 0 26px;
+	padding:0;
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat;
+}
+
+#main .password {
+	width:100%;
+}
+.controls {
+	width:358px;
+	margin: auto;
+}
+input[type="text"].input-text {
+	margin: 57px auto;
+	width:358px;
+	height:36px;
+	line-height:23px;
+}
+
+select.select-option-margin {
+	padding: 8px 4px;
+	margin: 32px auto;
+	height: 36px;
+	line-height:23px;
+}
+
+.warning-icon {
+	margin:0 0 70px 0;
+	padding:0 0 0 74px;
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 5px;
+}
+.password-warning {
+	color:#555;
+	font-weight:normal;
+}
+a.support {
+	font-size:21px;
+}
+.success-icon {
+	margin:0 0 35px 0;
+	padding:0 0 0 83px;
+	background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 5px;
+	line-height: normal;
+	min-height: 75px;
+}
+#completed-links a{
+	margin-bottom: 24px;
+}
+.DBCaret {
+	margin-right: 19px;
+	margin-left:10px;
+	float: right;
+}
+.router-link-caret {
+	padding-right:22px;
+	margin-right: 10px;
+}
+#str-width
+{
+	width: 619px;
+}
+.expander.expanded {
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../images/arrow_down_blue.png);
+}
+.expander.collapsed {
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../images/arrow_right_blue.png);
+}
+.explus.expanded {
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../../../../../../www.linksys.com/index.html);
+}
+
+.explus.collapsed {
+    padding-left: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../../../../../../www.linksys.com/index.html);
+}
+p.f16 {font-size: 16px; line-height:inherit;}
+p.mrx {	margin: 0 0 0 25px;	text-indent: -25px; }
+p.mrx img {	vertical-align: text-top; }
+.vspace {
+	margin: 57px auto 57px auto;
+}
+.vspacetop {
+	margin-top: 57px !important;
+}
+.vspacetop30 {
+	margin-top: 30px !important;
+}
+.vspacebottom {
+	margin-bottom: 57px !important;
+}
+.nav-links {
+    padding-right: 12px;
+    /*border-right: 1px solid;*/
+}
+.nav-links a {
+  cursor: pointer;
+  color: #181818;
+  font-weight: 700;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding-bottom: 8px;
+  max-width:100%;
+}
+.nav-links a.current {
+  color: #818181;
+}
+.nav-links a:hover {
+  color: #1c7fc3;
+}
+.nav-links .mainnav {
+  color: #181818;
+  font-weight: 700;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding-bottom: 8px;
+  max-width:100%;
+}
+.nav-links .subnav {
+  padding-left: 20px;
+}
+.nav-links .subnav.current {
+  color: #818181;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.nav-links .router-settings li {
+  padding-left: 1em;
+}
+#mainContent {
+  padding-left: 12px;
+}
+.forcebfc {
+    overflow: hidden;
+}
+.saveField a.button{
+	 margin: 0px 20px 10px 0px;
+}
+.fwUpgradeLabel {
+    color: #F00 !important;
+    font-weight: bold;
+    padding-bottom: 5px !important;
+    text-align: center;
+    padding-left: 20px !important;
+    vertical-align: top;
+    width: 120px;
+}
+.fwUpgradeContent {
+    color: #F00 !important;
+    text-align: left;
+    width: 315px;
+}
+.td_gray {
+	opacity: 0.5;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* Tom.Hung 2012-12-10, this line for IE */
+}
+.v-middle { vertical-align: middle; }
+.HELP_P { font-weight: bold; }
+.fwgui-input {
+	background: none repeat scroll 0% 0% #FFF;
+	width: 100%;
+	height: 28px;
+	line-height: 18px;
+	padding: 4px;
+	font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+	outline: medium none !important;
+	background-color: #FFF;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) inset;
+	border: 1px solid #BBB;
+	border-radius: 3px;
+}
+.fwgui-input:focus { background-color: #F9F9F9; }
+.fwgui-select {
+	background: none repeat scroll 0% 0% #FFF;
+	width: 100%;
+	height: 28px;
+	line-height: 18px;
+	padding: 4px;
+	font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+	outline: medium none !important;
+	background-color: #FFF;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) inset;
+	border: 1px solid #BBB;
+	border-radius: 2px;
+}
+.v-line {
+	width: 1px;
+	background-color: #000;
+	height: 390px;
+	min-height: 390px;
+	float: left;
+}
+h5.help {
+	font-size: 1.6rem;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.mb0 { margin-bottom:0; }
+
+/* Media query for phone view */	
+@media only screen and (max-width:767px){
+	body {
+		background:url() repeat-y center #fff;
+	}
+	.actions {
+		background:url() repeat-x #fff;
+	}
+	.actions a{
+		margin: 5px 10px 0 0;
+	}
+	.actions a.button {
+		margin: 5px 0px 20px;
+	}
+	#header h1 {
+		font-size:12px;
+		color: #ffffff;
+		float:right;
+		padding: 16px 12px 12px 16px;
+		margin-bottom:0;
+	}
+	#header h1#productNameFWGUI {
+		padding: 8px 12px 8px 16px;
+		text-align: right;
+	}
+	#header .columns:first-child {
+		padding:0;
+	}
+	#logo {
+		width:76px;
+		height:29px;
+		background:url(../images/logo-Linksys_mobile.png) no-repeat 4px 5px;
+		background-size: 76px 29px;
+	}
+	#productPhoto {
+		width:288px;
+		height:277px;
+		margin:0 0 10px;
+		padding:0;
+		background:url(../../../../../../www.linksys.com/index.html) no-repeat;
+	}
+	.controls{
+		width:100%;
+	}
+	.password-warning {
+		color:#555;
+		font-size:16px;
+		font-size:1em;
+	}
+	.warning-icon {
+		margin:0 0 70px 0;
+		padding:0 0 0 38px;
+		background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 5px;
+	}
+	.success-icon {
+		margin:0 0 20px 0;
+		padding:0 0 0 40px;
+		background:url(../../../../../../www.linksys.com/index.html) no-repeat 0px 5px;
+	}
+	.networklistrow {
+		border-top:1px solid #cccccc;
+	}
+	.fix-bottom{
+		height:45px;
+	}
+	#str-width
+	{
+		width: auto;
+	}
+	.networklistrow .name {
+		width: auto;
+	}
+	select.select-option-margin {
+		padding: 4px 4px;
+	}
+	#mainContent {
+		padding-right: 12px;
+	}
+	.saveField a.button{
+		 margin: 0px 0px 10px 0px;
+	}
+	.nav-links {
+		padding-left: 12px;
+		padding-right: 12px;
+		border-right: 0;
+	}
+	#ssidField {max-width: 75px;}
+}
+
+@media only screen and (max-width:530px){ .networklistrow .name { width: 220px; } }
+@media only screen and (max-width:490px){ .networklistrow .name { width: 180px; } }
+@media only screen and (max-width:440px){ .networklistrow .name { width: 130px; } }
+
+#emulator {
+	display:none; /* mark this when not emulator */
+	margin-top: 20px;
+	border: 1px solid #F00;
+}

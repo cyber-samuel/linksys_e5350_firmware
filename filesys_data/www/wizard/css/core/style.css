@@ -1,0 +1,478 @@
+/* 
+ * Author: KK Chen - https://www.facebook.com/kk.wjc
+ * Copyright 2015 CyberTAN Inc. All rights reserved.
+ */
+
+/* ===================================
+   each special element style
+   =================================== */
+body {
+	overflow: auto;
+	background-color: transparent;
+	margin: 0 1em;
+}
+
+/* thead */.wpr-layout-container tr{
+	height: auto;
+}
+
+.wpr-layout-container th,
+.wpr-layout-container td{
+	line-height: 1.2;
+	height: 25px;
+}
+
+select[disabled]{
+	background-color: #ebebe4;
+}
+
+.NOSPACE{
+	padding: 0;
+}
+
+.CONTENT_GROUP{
+	border: 0;
+}
+
+form > .CONTENT_TABLE{
+	/* table-layout: fixed; */
+}
+
+#wpr-header-fwversion,
+#wpr-menu-title,
+#wpr-menu-product-name,
+#wpr-menu-product-model{
+	color: #ffffff;
+}
+
+.wpr-layout-container > tr > td[colspan],
+.wpr-layout-container > tr > td[colspan] form > table,
+.wpr-layout-container > tr > td[colspan] form > table > tbody > tr > td[clospan]{
+	/* width: 619px; */
+}
+
+.wpr-layout-container .wpr-layout-main > table{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.wpr-layout-container .wpr-layout-main.first{
+	width: 160px;
+	/* white-space: nowrap; */
+	padding-right: 0.5em;
+}
+.dir_rtl .wpr-layout-container .wpr-layout-main.first{
+	padding-left: initial;
+	padding-right: 0.5em;
+}
+
+.wpr-layout-container .wpr-layout-main.last{
+	width: 299px;
+}
+
+.wpr-layout-container .wpr-layout-main[colspan="2"]{
+	/* width: 100%; */
+	/* width: auto; */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 459px;
+}
+
+.wpr-layout-container .wpr-layout-aside.funtitle{
+	position: absolute;
+}
+
+.wpr-layout-container .wpr-layout-main.funtitle[colspan="2"]{
+	position: absolute;
+	display: none;
+	z-index: -1;
+}
+
+.wpr-layout-container .wpr-layout-aside.funtitle > div{
+	display: table-cell;
+	text-align: inherit;
+	width: inherit;
+	height: inherit;
+	vertical-align: inherit;
+}
+
+.wpr-layout-container .TABLELIST .wpr-layout-aside.funtitle{
+	position: relative;
+	background: none;
+	padding: 4px 8px 4px 25px;
+	text-align: left;
+}
+
+.wpr-layout-container .TABLELIST .wpr-layout-aside.funtitle > div{
+	padding: 0 0.8em;
+}
+
+.wpr-layout-container .wpr-layout-main.subtitle_m[colspan="2"] .wpr-layout-aside.ishr{
+	display: none;
+}
+
+.wpr-layout-container .wpr-layout-main.subtitle_m[colspan="2"] .wpr-layout-main.ishr[colspan="2"]{
+	position: relative;
+	left: -1em;
+}
+
+.wpr-layout-container .wpr-layout-main.subtitle_m[colspan="2"] .wpr-layout-main.ishr[colspan="2"] hr{
+	margin-right: -2em;
+}
+
+#wrapper table.data > thead > tr > th,
+#wrapper table.data > thead > tr > td,
+#wrapper table.data > tbody > tr > th,
+#wrapper table.data > tbody > tr > td{
+	border:1px solid #2971b9;
+	text-align: center;
+}
+
+#wrapper table.core > thead > tr > th,
+#wrapper table.core > thead > tr > td,
+#wrapper table.core > tbody > tr > th,
+#wrapper table.core > tbody > tr > td{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+}
+
+#wrapper table.core > thead > tr > .fc,
+#wrapper table.core > tbody > tr > .fc{
+	text-align: right;
+}
+.dir_rtl #wrapper table.core > thead > tr > .fc,
+.dir_rtl #wrapper table.core > tbody > tr > .fc{
+	text-align: left;
+}
+
+#wrapper table.core > thead > tr > .lc,
+#wrapper table.core > tbody > tr > .lc{
+	text-align: left;
+}
+.dir_rtl #wrapper table.core > thead > tr > .lc,
+.dir_rtl #wrapper table.core > tbody > tr > .lc{
+	text-align: right;
+}
+
+html.lyt_apply body{
+	background: black;
+}
+
+html.lyt_apply #wrapper{
+	width: 557px;
+	background: white;
+	text-align: center;
+}
+
+html.lyt_popout body{
+	background: #808080;
+}
+
+html.lyt_popout #wrapper{
+	width: 710px;
+	border: 1px solid white;
+}
+
+html.lyt_popout #wpr-header{
+	height: 73px;
+}
+
+html.lyt_popout #wpr-header-top{
+	height: 16px;
+	font-size: 0;
+	line-height: 0;
+	border-bottom: 1px solid white;
+}
+
+html.lyt_popout #wpr-header-logo{
+	width: auto;
+	background-position: 15px 50%;
+}
+
+html.lyt_popout #wpr-header-shadow{
+	height: 15px;
+	font-size: 0;
+	line-height: 0;
+	background: #e7e7e7;
+}
+
+html.lyt_popout .wpr-layout-container td[colspan="3"]{
+	height: 0;
+}
+
+html.lyt_popout .wpr-content-top{
+	height: 7px;
+	font-size: 0;
+	line-height: 0;
+	background: white;
+}
+
+html.lyt_popout .wpr-content-top.wpr-aside{
+	/* width: 160px; */
+	background: #e7e7e7;
+}
+
+html.lyt_popout .wpr-layout-aside{
+	background-image: none;
+}
+
+html.lyt_popout .wpr-layout-container .wpr-layout-main.last{
+	width: 390px;
+}
+
+html.lyt_popout .wpr-layout-container .wpr-layout-main[colspan="2"]{
+	width: 550px;
+}
+
+html.lyt_popout .wpr-content-bottom{
+	height: 7px;
+	font-size: 0;
+	line-height: 0;
+	background: white;
+}
+
+html.lyt_popout .wpr-content-bottom.left{
+	/* width: 160px; */
+}
+
+html.lyt_popout button{
+	border: 0;
+	padding: 0 1em;
+	height: 20px;
+	color: white;
+	background: #8C8E8C;
+	outline: 0;
+}
+
+html.lyt_popout button:hover{
+	color: #00FFFF;
+}
+html.lyt_popout button[disabled] {
+    background-color: #D1D3D1;
+}
+
+
+html.lyt_debug #wrapper,
+html.lyt_debug #wpr-menu-product-name,
+html.lyt_debug #wpr-menu-menu .wpr-menu-actived,
+html.lyt_debug #wpr-menu-leaf-container {
+    background-color: #FF9E9E;
+}
+html.lyt_debug #wpr-layout-pageaction .wpr-layout-pageaction-button {
+	background-color: #B93B3B;
+}
+html.lyt_debug #wpr-layout-pageaction .wpr-layout-pageaction-button:hover {
+	color: #FF7272;
+}
+html.lyt_debug #wpr-layout-pageaction .wpr-layout-pageaction-button[disabled] {
+	color: #ddd;
+	background-color: #B08585;
+}
+html.lyt_debug #wpr-cgi-loading-title {
+	background: #FF3737;
+}
+html.lyt_debug #wpr-menu-shadow-container .wpr-menu-shadow,
+html.lyt_debug .wpr-layout-container .wpr-layout-main {
+	background-color: #FFF7F7;
+}
+html.lyt_debug.lyt_normal .wpr-layout-container .wpr-layout-main.last {
+	width: 489px;
+}
+html.lyt_debug.lyt_normal .wpr-layout-container .wpr-layout-main[colspan="2"] {
+	width: 649px;
+}
+html.lyt_debug .wpr-layout-sidebar {
+    display: none;
+}
+
+.tlf {
+	table-layout: fixed;
+}
+.wbwa {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+
+
+
+
+/* Applications & Gaming - QoS */
+.wpr-lyt-main-table.qos tr > :first-child{
+	width: 110px;
+}
+
+/* Applications & Gaming - IPv6 Firewall */
+.wpr-lyt-main-table.ip6_fl tr > :first-child{
+	width: 110px;
+}
+
+/* Administration - Management */
+label.mgt_opt_lbl{
+	width: 80px;
+}
+
+/* Administration - Firmware Upgrade */
+.fwupg-wrng{
+	color: red;
+}
+
+.fwupg-itrp{
+	color: red;
+	font-weight: bolder;
+	font-size: 150%;
+	text-align: center;
+}
+
+.PROC_STATUS {
+	font-size: 0;
+	width: 0px;
+	height: 25px;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	background-color: #92C212;
+}
+.dir_rtl .PROC_STATUS{
+	border-left: initial;
+	border-right: 1px solid #999999;
+}
+
+.PROC_STATUS1 {
+	font-size: 0;
+	width: 370px;
+	height: 25px;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+.dir_rtl .PROC_STATUS1 {
+	border-right: initial;
+	border-left: 1px solid #999999;
+}
+
+/* Administration - Log - View Log */
+div#log_area{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 0.5em;
+	width: 100%;
+	height: 220px;
+	border: 2px solid #ccc;
+	overflow: auto;
+}
+
+/* apply page, Fail* and Success* */
+.CONTENT_TABLE_ST{
+	width: 100%;
+	height: 100%;
+}
+
+.MAINFUN_STT{
+	font-weight: bolder;
+	font-size: 120%;
+}
+
+.MAINFUN_ST{
+	font-weight: bold;
+	height: 400px;
+	vertical-align: middle;
+}
+
+/* Wireless - Basic Wireless Settings (Wireless_WPS) */
+#wps_logo_btn{
+	border: 0;
+	background: none;
+	background-color: transparent;
+	background-image: url(../../image/WFA_WPS_Solo1.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: scroll;
+	width: 65px;
+	height: 65px;
+}
+#wps_logo_btn.active{
+	background-image: url(../../image/WFA_WPS_Solo.gif);
+}
+#wps_logo_btn.active:hover{
+	background-image: url(../../image/WFA_WPS_Solo2.gif);
+}
+#wps_logo_btn.active[disabled],
+#wps_logo_btn.active[disabled]:hover{
+	background-image: url(../../image/WFA_WPS_Solo1.gif);
+}
+
+#wps_overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-image: url("../../image/block_50.png");
+}
+
+.wps_overlay_table{
+	width: 100%;
+	height: 100%;
+}
+
+.wps_overlay_wpr{
+	display: none;
+	margin: 0 auto;
+	padding: 1em;
+	border: 2px solid black;
+	width: 420px;
+	background-color: white;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.wps_overlay_wpr#search_device{
+	width: 500px;
+}
+.wps_overlay_wpr#connect_success{
+	background-image: url(../../image/WFA_WPS_success.jpg);
+	background-position: 10px 10px;
+}
+.wps_overlay_wpr#connect_failed{
+	background-image: url(../../image/WFA_WPS_fail.jpg);
+	background-position: 10px 10px;
+}
+.wps_overlay_wpr#connect_success > div,
+.wps_overlay_wpr#connect_failed > div{
+	margin-left: 80px;
+}
+
+.wps_overlay_pcbox{
+	border: 1px solid #999;
+	width: 85%;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.wps_overlay_lpc{
+	width: 0%;
+	height: 25px;
+	background: #999;
+}
+
+.wps_overlay_pct{
+	padding-left: 0.3em;
+}
+
+.wps_overlay_pgat{
+	text-align: right;
+}

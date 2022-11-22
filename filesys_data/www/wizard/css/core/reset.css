@@ -1,0 +1,152 @@
+/*
+* KK Reset CSS v1.0
+* Author: KK Chen - https://www.facebook.com/kk.wjc
+* 
+* Compound:
+* 1. Eric Meyer's Reset CSS v2.0 - http://meyerweb.com/eric/tools/css/reset/
+* 2. html5doctor.com Reset Stylesheet v1.6.1
+*    Last Updated: 2010-09-17
+*    Author: Richard Clark - http://richclarkdesign.com
+* 3. YUI 3.5.0 - reset.css - http://developer.yahoo.com/yui/3/cssreset/
+*    Copyright 2012 Yahoo! Inc. All rights reserved.
+* 4. cssreset.com
+* 5. normalize.css v1.0.0 | MIT License | git.io/normalize
+*/
+
+/* ==========================================================================
+   Basic
+   ========================================================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    outline: 0;
+   /* border: 0;*/
+    padding: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-variant: inherit;
+	font-weight: inherit;
+	font-stretch: inherit;
+	line-height: inherit;
+    vertical-align: baseline;
+    background: transparent;
+	color: inherit;
+}
+
+body {
+    line-height: 1;
+}
+
+nav ul, ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, textarea, select {
+	font-family: initial;
+	font-size: initial;
+	font-weight: initial;
+    vertical-align: middle;
+	/* to enable resizing for IE */
+	*font-size:100%;
+}
+
+/* to preserve line-height and selector appearance */
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+
+wbr {
+	display: inline;
+	height: auto;
+	width: auto;
+}
+
+/* ==========================================================================
+   Repair HTML5
+   ========================================================================== */
+
+center {
+	display: block;
+	text-align: -webkit-center;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+big {
+	font-size: larger;
+}
+
+strike, del, s {
+	text-decoration: line-through;
+}
+
+/* ==========================================================================
+   Advanced
+   ========================================================================== */
+
+/* change colours to suit your needs */
+u, ins {
+    /* background-color: #ff9; */
+    /* color: #000; */
+    text-decoration: underline;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    margin: 0.5em auto;
+    border: 0;   
+    border-top: 1px solid #cccccc;
+    padding: 0;
+    height: 1px;
+}
+
